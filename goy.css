@@ -1,0 +1,89 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 20px;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#main-header{
+	color: black;
+	background-color: #ff0000;
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 5px;
+	text-align: center;
+
+}
+.navbar{
+	background-color: #333;
+	color: #fff;
+	text-align: right;
+
+}
+.navbar ul{
+	margin: 5px;
+	list-style: none;	
+	
+}
+.navbar li{
+	display: inline;
+
+
+}
+.navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px;
+}
+#showcase{
+	background-image:url('../images/konga.jpg');
+	background-position: center;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#showcase h1{
+	color: #330066;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-bottom: : 30px
+}
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background: red;
+	color: yellow;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+#footer{
+	background: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	margin-top: 30px;
+
+}
+@media (max-width: 900px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+}
